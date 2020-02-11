@@ -135,6 +135,12 @@ Aeron transport and less risk of trouble in container environments.
 
 @@@ note
 
+@ref:[Rolling update](additional/rolling-updates.md) is not supported when changing from one transport to another.
+
+@@@
+
+@@@ note
+
 Aeron requires 64bit JVM to work reliably and is only officially supported on Linux, Mac and Windows.
 It may work on other Unixes e.g. Solaris but insufficient testing has taken place for it to be
 officially supported. If you're on a Big Endian processor, such as Sparc, it is recommended to use
